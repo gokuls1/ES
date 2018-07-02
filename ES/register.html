@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" type="text/css" href="css/register_design.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="javascript/login.js"></script>
+</head>
+<body class="regbody">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card" >
+              <div class="regcard">
+                <button class="btn-lg back"><a href="index.html" class="link">Back</a></button>
+                <h2>Create Account</h2>
+               <form class="regform" onsubmit="return regValidateForm()">
+
+                <div class="form-group">
+                  <label for="Name">Name</label>
+                  <input type="text" class="form-control" id="regname" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="Email">Email</label>
+                  <input type="email" class="form-control" id="regemail" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="Date_of_Birth">Date of Birth</label>
+                  <input type="date" class="form-control" id="regdate">
+                </div>
+
+                <div class="form-group">
+                  <label for="Mobile_number">Mobile Number</label>
+                  <input type="text" class="form-control" id="regnumber" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="Password">Password</label>
+                  <input type="password" class="form-control" id="regpassword">
+                </div>
+
+                <div class="form-group">
+                  <label for="Re_Password">Re-Password</label>
+                  <input type="password" class="form-control" id="regrepassword">
+                </div>
+
+                <button type="submit" class="btn reg-button btn-lg">Register</button>
+                </form><br>
+
+                <p><b>Already have an Account</b><a href="login.html" class="link">Login</a></p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.regbody{
+	background-color: #e6f2ff;
+}
+.regform{
+	max-width: 50%;
+	margin: auto;
+}
+.reg-button{
+	color: #000;
+	width: 100%;
+}
+p
+{
+	max-width: 50%;
+	margin-left: 220px;
+}
+h2{
+	text-align: center;
+}
+.regcard{
+	background-color: black;
+	color: white;
+}
+.back{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: #DC8E41;
+}
+.link{
+	text-decoration: none;
+	color: red;
+}

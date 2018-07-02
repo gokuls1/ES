@@ -1,0 +1,146 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: linear-gradient(#0a0000,#140000);
+}
+header {
+	margin-top: -7.7px;
+}
+
+.title {
+	float: right;
+	margin-right: 600px;
+	font-style: italic;
+	font-size: 2rem;
+	margin-top: -15px;
+	color: white;
+}
+.nav{
+	float: left;
+}
+li > a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 20px 16px;
+	color: white;
+}
+.navigation{
+	list-style-type: none;
+	overflow: auto;
+	padding: 0;
+}
+nav {
+	margin-top: -5px;
+}
+li a:hover{
+	background: #cfc9ca;
+}
+.about{
+	border: 2px solid black;
+	text-align: center;
+	width: auto;
+	background: #bfffcd;
+	font-family: 'Inconsolata', monospace;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.grid{
+	display: grid;
+	grid-template-columns:auto auto auto auto;
+	grid-gap: 8px;
+	padding: 20px;
+	height: 700px;
+}
+.item{
+	text-align: center;
+	background-color:#afffff;
+}
+.items{
+	text-align: center;
+	background-color:#afffff;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+ .remove{
+ 	list-style-type: none;
+ 	font-family: 'Poor Story', cursive;
+ }
+.bottom{
+	color: white;
+	height: 200px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.foot{
+	font-style: italic;
+	float: right;
+	margin-right: -200px;
+	margin-top: 70px;
+}
+.my-image{
+	float: right;
+	margin-right: 180px;
+	margin-top: 10px;
+}
+.call{
+	float: right;
+	margin-top: 155px;	
+}
+.email{
+	float: right;
+	margin-top: 181px;
+	margin-right: -25px;	
+}
+.fa {
+  padding: 10px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 120px;
+  border-radius: 100%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.social
+{
+	text-align: center;
+	width: auto;
+	margin-left: 250px;
+}
+@media screen and (max-width: 870px){
+	.title{
+		float: left;
+		font-size: 1rem;
+	}
+} 
+@media screen and (max-width: 500px){
+	.item{
+		grid-column-start: 1;
+	    grid-column-end: 4;
+	}
+	.bottom{
+		margin-top: 400px;
+	}
+	.social 
+	{
+		margin-left: 0px;
+		margin-top: 400px;
+	}
+} 
+@media screen and (max-width: 800px){
+	.navigation{
+		clear: both;
+	}
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="javascript/login.js"></script>
+</head>
+<body class="loginbody">
+      <div class="container logincontainer">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card" >
+              <div class="card-block logincard">
+                <button class="btn-lg back"><a href="index.html" class="link">Back</a></button>
+                <h2>Login</h2>
+               <form class="loginform" onsubmit="return validateform()">
+                <div class="form-group">
+                  <label for="Email">Email</label>
+                  <input type="email" class="form-control" id="loginname">
+                </div>
+                <div class="form-group">
+                  <label for="Password">Password</label>
+                  <input type="password" class="form-control" id="loginpassword">
+                </div>
+                <button type="submit" class="btn login-button btn-lg">Login</button>
+                </form><br>
+                <p><b>Create New Account</b><a href="register.html" class="link">  Signup</a></p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+</body>
+</html>
